@@ -1,0 +1,148 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html,body{
+  height: 100%;
+}
+
+.page-container{
+  position: relative;
+  height: 100%;
+}
+
+.page-video-bg{
+  height: 100%;
+}
+
+.page-video-bg video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.page-content{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
+
+.header-left{
+  float: left;
+  margin-left: 80px;
+  height: 100%
+}
+
+.page-header{
+  height: 120px; 
+  line-height: 120px; 
+  overflow: hidden;
+}
+
+.header-left a{
+  height: 100%;
+  align-items: center;
+  display: flex;
+}
+
+.header-right{
+  float: right;
+  margin-right: 150px;
+}
+
+.header-links{
+  list-style: none;
+}
+
+.header-links-item{
+  display: inline-block;
+  vertical-align: middle; 
+  margin-left: 25px;
+}
+
+.header-links-item a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.page-mainer{
+  width: 500px; 
+  position: absolute; 
+  top: 50%; 
+  transform: translateY(-50%); 
+  margin-top: 50px; 
+  right: 150px;
+}
+
+.page-mainer .slogan {
+  float: right; 
+  width: 450px; 
+  margin-bottom: 50px; 
+}
+
+.page-mainer .slogan>img{
+  width: 100%;
+}
+
+.btn-list{
+  display: flex;
+}
+
+.btn-list img{
+  width: 130px;
+  height: 50px;
+  margin-left: 15px;
+  border-radius: 5px;
+}
+
+.android img:hover{
+  font-weight: bold;
+  box-shadow: 1px  0px 1px #DCDCDC;
+  opacity: 0.9;
+}
+
+.ios img:hover{
+  font-weight: bold;
+  box-shadow: 1px  0px 1px #DCDCDC;
+  opacity: 0.9;
+}
+.qrcode img{
+  width: 51.29px;
+  height: 51.29px;
+  cursor: pointer;
+  transition: all 0.6s;
+}
+
+.btn-list { 
+  float: right; 
+  letter-spacing: -4px;
+  font-size: 0px; 
+}
+
+.page-footer{
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+}
+
+.page-footer  .footer-info{
+  margin-top: 15px;
+  color: #ffffff;
+  font-weight: 600;
+  align-items: center; 
+}
+
+.page-footer  .footer-info a{
+  color: #ffffff;
+  margin-right: 15px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
